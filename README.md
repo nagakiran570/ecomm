@@ -14,9 +14,10 @@ A simple React-based e-commerce app that displays products with filtering by cat
 - 📦 Responsive card layout
 - 🖼 Fallback image for broken/missing thumbnails
 
-## 📷 Demo
 
-> Add GitHub Pages link here once deployed
+📷 Demo
+## ![Screenshot (119)](https://github.com/user-attachments/assets/d695bc73-2dc9-49ea-bfcd-f2cdc61ee2af)
+>
 
 ## 🧑‍💻 Tech Stack
 
