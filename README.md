@@ -1,12 +1,47 @@
-# React + Vite
+# 🛍️ React E-Commerce Store (FakeStore API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based e-commerce app that displays products with filtering by category. Product data is fetched from the [FakeStore API](https://fakestoreapi.com/).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Browse all products from FakeStore API
+- 🎯 Filter items by categories:
+  - Men's Clothing
+  - Women's Clothing
+  - Jewelery
+  - Electronics
+- 🌟 Displays price, rating, and brief descriptions
+- 📦 Responsive card layout
+- 🖼 Fallback image for broken/missing thumbnails
 
-## Expanding the ESLint configuration
+## 📷 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Add GitHub Pages link here once deployed
+
+## 🧑‍💻 Tech Stack
+
+- React.js
+- Bootstrap (via CDN)
+- FakeStore REST API
+
+## 📁 Folder Structure
+
+
+src/
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── Items.jsx
+│ └── Itemspage.jsx
+├── assets/
+│ └── customimg.jpeg
+└── App.jsx
+
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+npm install
+npm run dev 
